@@ -1,0 +1,21 @@
+.list{
+    list-style-type: none;
+}
+
+.item-list{
+    margin: 0 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.icons-list{
+    margin:  0 20px;
+}
+
+.navbar{
+    background-color: white;
+    margin: 10px 10%;
+    border: 2px solid red;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
