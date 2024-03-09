@@ -6,8 +6,22 @@
 .methane-chart{
     min-height: 300px;
     background-color: mistyrose;
-    margin: 10px 10%;
-    border: 2px solid red;
+    margin: 5px 10%;
+    border: 2px solid blue;
     box-shadow: 10px 10px 10px;
     border-radius: 10px;
 }
+
+.description-methane{
+    background-color: mistyrose;
+    color: darkslategray;
+    margin: 5px 10%;
+    border: 5px solid blue;
+    /* box-shadow: 10px 10px 10px; */
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* .description-methane p{
+    font-size: 14px;
+} */

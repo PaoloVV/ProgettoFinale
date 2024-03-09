@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    screens: {
+      "lg": "922px"
+    }
   },
   plugins: [],
 }

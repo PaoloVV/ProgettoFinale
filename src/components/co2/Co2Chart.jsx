@@ -43,11 +43,6 @@ export const options = {
       },
     },
     scales: {
-      x: {
-        grid: {
-          display: false
-        }
-      },
       y: {
         grid: {
           color: "white"
@@ -64,18 +59,6 @@ export const options = {
   
 
 function Co2Chart(){
-    // const [temperature, setTemperature] = useState([])
-    // const getData = () =>{
-    //     axios.get(`https://global-warming.org/api/co2-api`)
-    //     .then(res =>{
-    //         console.log(res.data.co2)
-    //         setTemperature(res.data.co2)
-    //     })
-    //     .catch(err =>{
-    //         console.log(err)
-    //     })
-    // }
-    // const labels = temperature.map(giorno => `${giorno.day}-${giorno.month}-${giorno.year}`)
     const co2 = useSelector((state) => state.co2)
 
     const labels = co2.co2Data.map(giorno => `${giorno.day}-${giorno.month}-${giorno.year}`)
@@ -95,12 +78,7 @@ function Co2Chart(){
           }
         ]
       }
-
-      // useEffect(() =>{
-      //   getData()
-      // }, [])
     
-
     return(
       <Line options={options} data={data} />
     )
