@@ -9,7 +9,7 @@ const initialState = {
 
 export const fetchTemperature = createAsyncThunk("temperature/fetchTemperature", async () =>{
     const res = await axios.get(`https://global-warming.org/api/temperature-api`)
-    console.log(res.data.result)
+    // console.log(res.data.result)
     return res.data.result
 })
 

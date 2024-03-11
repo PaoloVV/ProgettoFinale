@@ -4,16 +4,12 @@ import {
     LinearScale,
     PointElement,
     LineElement,
-    // BarElement,
     Title,
     Tooltip,
     Legend
   } from "chart.js"
 
-// import { Bar } from "react-chartjs-2"
 import { Line } from "react-chartjs-2"
-import { useEffect, useState } from "react"
-import axios from "axios"
 import { useSelector } from "react-redux"
 
 ChartJS.register(
@@ -21,7 +17,6 @@ ChartJS.register(
     LinearScale,
     PointElement,
     LineElement,
-    // BarElement,
     Title,
     Tooltip,
     Legend

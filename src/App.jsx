@@ -1,76 +1,39 @@
 import './App.css'
-import React, { useEffect, useState } from 'react'
-import Co2Chart from './components/co2/Co2Chart'
-import MethaneChart from './components/methane/MethaneChart'
-import { useDispatch, useSelector } from 'react-redux'
-import { fetchCo2 } from './redux/co2Slice'
-import { fetchMethane } from './redux/methaneSlice'
-import { fetchTemperature } from './redux/temperatureSlice'
-import TemperatureChart from './components/temperature/TemperatureChart'
-import { fetchNitrous } from './redux/nitrousSlice'
-import NitrousChart from './components/nitrous/NitrousChart'
-import { fetchArctic } from './redux/arcticSlice'
-import ArcticChart from './components/arctic/ArcticChart'
-import Co2 from './components/co2/Co2'
+import React from 'react'
 import Navbar from './components/navbar/Navbar'
-import Methane from './components/methane/Methane'
+import Planet from "./assets/images/planet-sfumato-mini.png"
+import Footer from './components/footer/footer'
+import { BounceLoader } from 'react-spinners'
 
 
 
 function App() {
-  const dispatch = useDispatch()
-  const co2 = useSelector((state) => state.co2)
-  const temperature = useSelector((state) => state.temperature)
-  const nitrous = useSelector((state) => state.nitrous)
-  const arctic = useSelector((state) => state.arctic)
-
-  useEffect(() =>{
-    dispatch(fetchArctic())
-    dispatch(fetchNitrous())
-    dispatch(fetchTemperature())
-    dispatch(fetchCo2())
-    dispatch(fetchMethane())
-  }, [])
 
   return (
-    <>
+    <div className='app flex flex-col justify-start'>
       <Navbar />
-      <button >Vedi API</button>
-      <h1>Home Home Home</h1>
-      {/* <div>
-        {co2.loading && <p>Loading...</p>}
-        {!co2.loading && co2.co2Data ? <Co2Chart /> : null}
-        {!co2.loading && co2.error && <p>Error...</p>}
-      </div> */}
 
-      {/* <Co2 /> */}
-     
-      {/* <div>
-        {methane.loading && <p>Loading...</p>}
-        {!methane.loading && methane.methaneData ? <MethaneChart /> : null}
-        {!methane.loading && methane.error && <p>Error...</p>}
-      </div> */}
-
-      {/* <Methane /> */}
-
-      {/* <div>
-        {temperature.loading && <p>Loading...</p>}
-        {!temperature.loading && temperature.temperatureData ? <TemperatureChart /> : null}
-        {!temperature.loading && temperature.error && <p>Error...</p>}
+      <div className='div-home p-2 flex flex-row justify-between'>
+        <div className='m-7'>
+          <h1 className='text-2xl lg:text-6xl font-bold text-white text-start uppercase'>planet charts</h1>
+          <h3 className='text-2xl mt-3 font-semibold text-white'>How is the planet?</h3>
+          <h3 className='text-2xl mt-3 font-semibold text-white'>Is he well or is he getting worse and worse?</h3>
+          <p className='mb-3 mt-3 text-white'>How many times do we stop to think about how our planet is really doing?</p>
+          <p className='mb-3 text-white'>The health of our planet coincides with the health of all of us.</p>
+          <p className='mb-3 text-white'>In this App you can view graphs that show data on the increases in the main greenhouse gases, the level of polar ice and the increase in global temperature in recent years.</p>
+          <p className='mb-3 text-white'>The data comes from the global warming website</p>
+        </div>
+       
+        <div className='m-7'>
+          {!Planet && <BounceLoader color='white' />}
+          {Planet && <div><img src={Planet} alt="sickPlanet" className='planet-img rounded-xl' /></div>}
+        </div>
       </div>
 
       <div>
-        {nitrous.loading && <p>Loading...</p>}
-        {!nitrous.loading && nitrous.nitrousData ? <NitrousChart /> : null}
-        {!nitrous.loading && nitrous.error && <p>Error..</p>}
+        <Footer />
       </div>
-
-      <div>
-        {arctic.loading && <p>Loading...</p>}
-        {!arctic.loading && arctic.arcticData ? <ArcticChart /> : null}
-        {!arctic.loading && arctic.error && <p>Error..</p>}
-      </div> */}
-    </>
+    </div>
   )
 }
 
