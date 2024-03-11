@@ -23,6 +23,12 @@ function Temperature(){
         <div className="temperature flex flex-col justify-start">
             <Navbar />
 
+            <div className="lg:hidden advice">
+                <p>
+                    Per una migliore visualizzazione ruota il tuo dispositivo
+                </p>
+            </div>
+
             <div className="description-temperature">
                 <h3 className="text-xl lg:text-3xl text-center uppercase">temperature</h3>
                 <p className="text-sm">

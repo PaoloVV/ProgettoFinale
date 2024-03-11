@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.error-page{
+    min-height: 40vh;
+    background-color: darkcyan;
+    margin: 0 10%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.error-container{
+    height: 100vh;
+    background-color: darkslategray;
+}

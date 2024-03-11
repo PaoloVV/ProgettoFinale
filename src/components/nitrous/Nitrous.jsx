@@ -24,6 +24,12 @@ function Nitrous(){
         <div className="nitrous flex flex-col justify-start">
             <Navbar></Navbar>
 
+            <div className="lg:hidden advice">
+                <p>
+                    Per una migliore visualizzazione ruota il tuo dispositivo
+                </p>
+            </div>
+
             <div className="description-nitrous">
                 <h3 className="text-xl lg:text-3xl uppercase text-center">nitrogen dioxide - no2</h3>
                 <p className="text-sm">

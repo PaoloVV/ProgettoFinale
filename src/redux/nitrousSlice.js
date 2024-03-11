@@ -9,7 +9,7 @@ const initialState = {
 
 export const fetchNitrous = createAsyncThunk("nitrous/fetchNitrous", async () =>{
     const res = await axios.get(`https://global-warming.org/api/nitrous-oxide-api`)
-    console.log(res.data.nitrous)
+    // console.log(res.data.nitrous)
     return res.data.nitrous
 })
 

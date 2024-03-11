@@ -16,7 +16,7 @@ function Footer(){
             </div>
             
             <div>
-                <p className="text-footer">The Homepage image was taken from Freepik </p>
+                <p className="text-footer">The Homepage image by brgfx on Freepik</p>
                 <p className="text-footer"><a href="https://www.freepik.com/free-vector/save-earth_4546022.htm#query=sick%20earth&position=46&from_view=keyword&track=ais&uuid=aab532d4-772f-49c9-a0dd-c2d1d2964878" target="_blank" rel="noopener" className="underline">CLICK HERE</a> to view the source.</p>
             </div>
 

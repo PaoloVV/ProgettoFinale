@@ -9,7 +9,7 @@ const initialState = {
 
 export const fetchArctic = createAsyncThunk("arctic/fetchArctic", async () =>{
     const res = await axios.get(`https://global-warming.org/api/arctic-api`)
-    console.log(res.data.arcticData)
+    // console.log(res.data.arcticData)
     return res.data.arcticData
 })
 

@@ -4,7 +4,6 @@ import {
     LinearScale,
     PointElement,
     LineElement,
-    // BarElement,
     Title,
     Tooltip,
     Legend
@@ -18,7 +17,6 @@ ChartJS.register(
     LinearScale,
     PointElement,
     LineElement,
-    // BarElement,
     Title,
     Tooltip,
     Legend
@@ -47,8 +45,6 @@ function TemperatureChart(){
                 label: "station",
                 data: temperature.temperatureData.map(item => item.station),
                 backgroundColor: 'rgba(255, 255, 0, 0.5',
-                // borderColor: "yellow",
-                // pointBorderColor: "yellow"
             },
             {
                 label: "land",

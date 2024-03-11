@@ -24,6 +24,12 @@ function Co2(){
       <div className="co2 flex flex-col justify-start">
         <Navbar></Navbar>
 
+        <div className="lg:hidden advice">
+            <p>
+              Per una migliore visualizzazione ruota il tuo dispositivo
+            </p>
+          </div>
+
         <div className="description-co2">
           <h3 className="text-xl lg:text-3xl text-center uppercase">carbon dioxide - co2</h3>
           <p>

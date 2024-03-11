@@ -9,7 +9,7 @@ const initialState = {
 
 export const fetchMethane = createAsyncThunk("methane/fetchMethane", async ()=>{
     const response = await axios.get(`https://global-warming.org/api/methane-api`)
-    console.log(response.data.methane)
+    // console.log(response.data.methane)
     return response.data.methane
 })
 

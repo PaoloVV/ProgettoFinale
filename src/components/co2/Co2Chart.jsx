@@ -8,10 +8,7 @@ import {
     Tooltip,
     Legend
   } from "chart.js"
-import { useState } from "react"
 import { Line } from "react-chartjs-2"
-import { useEffect } from "react"
-import axios from "axios"
 import { useSelector } from "react-redux"
 
 ChartJS.register(

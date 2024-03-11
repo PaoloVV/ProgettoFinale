@@ -24,6 +24,13 @@ function Artcic(){
     return(
         <div className="arctic flex flex-col justify-start">
             <Navbar />
+
+            <div className="lg:hidden advice">
+                <p>
+                    Per una migliore visualizzazione ruota il tuo dispositivo
+                </p>
+            </div>
+
             <div className="description-arctic">
                 <h3 className="text-xl lg:text-3xl text-center uppercase">Polar Ice</h3>
                 <p className="text-sm">
@@ -31,6 +38,7 @@ function Artcic(){
                     The entry of fresh water into the oceans produces a further effect on sea level: it reduces the salinity and therefore the density of sea water, with effects on ocean circulation that are reflected in how sea level varies from region to region.
                 </p>
             </div>
+            
             <div className="arctic-chart flex flex-col justify-center items-center">
                 {arctic.loading && <div><PropagateLoader color="blue" /></div>}
                 {!arctic.loading && arctic.arcticData ? <ArcticChart /> : null}
