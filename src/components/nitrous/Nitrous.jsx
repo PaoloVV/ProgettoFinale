@@ -26,7 +26,7 @@ function Nitrous(){
 
             <div className="lg:hidden advice">
                 <p>
-                    Per una migliore visualizzazione ruota il tuo dispositivo
+                    For better viewing, rotate your device horizontallyo
                 </p>
             </div>
 

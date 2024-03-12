@@ -13,9 +13,9 @@ function App() {
     <div className='app flex flex-col justify-start'>
       <Navbar />
 
-      <div className='div-home p-2 flex flex-row justify-between'>
+      <div className='div-home p-2 flex flex-col-reverse md:max-lg:flex-col justify-start items-center lg:flex-row lg:justify-between'>
         <div className='m-7'>
-          <h1 className='text-2xl lg:text-6xl font-bold text-white text-start uppercase'>planet charts</h1>
+          <h1 className='text-3xl lg:text-6xl font-bold text-white text-center uppercase'>planet charts</h1>
           <h3 className='text-2xl mt-3 font-semibold text-white'>How is the planet?</h3>
           <h3 className='text-2xl mt-3 font-semibold text-white'>Is he well or is he getting worse and worse?</h3>
           <p className='mb-3 mt-3 text-white'>How many times do we stop to think about how our planet is really doing?</p>
