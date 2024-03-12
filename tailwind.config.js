@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     screens: {
-      "lg": "922px"
+      "lg": "922px",
+      "md": "550px"
     }
   },
   plugins: [],

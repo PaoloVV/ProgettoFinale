@@ -25,7 +25,7 @@ function Temperature(){
 
             <div className="lg:hidden advice">
                 <p>
-                    Per una migliore visualizzazione ruota il tuo dispositivo
+                    For better viewing, rotate your device horizontally
                 </p>
             </div>
 
