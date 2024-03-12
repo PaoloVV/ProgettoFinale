@@ -17,7 +17,7 @@ function Temperature(){
         dispatch(impostaLoading())
         setTimeout(() => {
             dispatch(fetchTemperature())
-        }, 2000);
+        }, 1000);
     },[windowSize])
     return(
         <div className="temperature flex flex-col justify-start">
