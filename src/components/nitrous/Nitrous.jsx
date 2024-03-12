@@ -17,7 +17,7 @@ function Nitrous(){
         dispatch(nitrousLoading())
         setTimeout(() => {
             dispatch(fetchNitrous())
-        }, 2000);
+        }, 1000);
     }, [windowSize])
 
     return(

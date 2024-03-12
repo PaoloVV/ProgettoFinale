@@ -18,7 +18,7 @@ function Methane(){
 
     setTimeout(() => {
       dispatch(fetchMethane())
-    }, 2000)
+    }, 1000)
   }, [windowSize])
 
     return(

@@ -18,7 +18,7 @@ function Artcic(){
         dispatch(arcticLoading())
         setTimeout(() => {
             dispatch(fetchArctic())
-        }, 2000);
+        }, 1000);
     },[windowSize])
 
     return(

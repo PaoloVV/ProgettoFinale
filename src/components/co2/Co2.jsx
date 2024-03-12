@@ -17,7 +17,7 @@ function Co2(){
     dispatch(co2Loading())
     setTimeout(() => {
       dispatch(fetchCo2())
-    }, 2000);
+    }, 1000);
   },[windowSize])
 
     return(
