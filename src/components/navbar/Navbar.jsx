@@ -89,7 +89,7 @@ function Navbar() {
               <Link to={"/"}>Home</Link>
             </li>
             <li className="item-list">
-              <Link to={"/chartconatiner/0"}>Co2</Link>
+              <Link to={"/chartcontainer/0"}>Co2</Link>
             </li>
             <li className="item-list">
               <Link to={"/chartcontainer/1"}>Methane</Link>
