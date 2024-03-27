@@ -1,15 +1,13 @@
-.footer{
-    min-height: 20vh;
-    background-color: black;
-    margin: 10px 10%;
-    border: 3px solid white;
-    border-radius: 10px;
+.footer {
+  min-height: 20vh;
+  background-color: black;
+  margin: 10px 10%;
+  border: 3px solid white;
+  border-radius: 10px;
 }
 
-
-
-@media screen and (max-width: 922px){
-    .text-footer{
-        font-size: 12px;
-    }
+@media screen and (max-width: 922px) {
+  .text-footer {
+    font-size: 12px;
+  }
 }
