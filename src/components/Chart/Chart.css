@@ -1,0 +1,117 @@
+.chart {
+  background: darkslategray;
+  min-height: 120vh;
+}
+
+.co2 {
+  background: darkslategray;
+  min-height: 120vh;
+}
+
+.chart-container {
+  min-height: 300px;
+  background-color: gray;
+  margin: 5px 10%;
+  border: 2px solid red;
+  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.description-co2 {
+  background: gray;
+  color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin: 5px 10%;
+  padding: 15px;
+}
+
+.methane {
+  min-height: 120vh;
+  background-color: darkslategray;
+}
+
+.methane-chart {
+  min-height: 300px;
+  background-color: mistyrose;
+  margin: 5px 10%;
+  border: 2px solid blue;
+  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.description-methane {
+  background-color: mistyrose;
+  color: darkslategray;
+  margin: 5px 10%;
+  border: 5px solid blue;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.temperature {
+  min-height: 120vh;
+  background-color: darkslategray;
+}
+
+.temperature-chart {
+  min-height: 300px;
+  background: khaki;
+  margin: 5px 10%;
+  border: 2px solid darkred;
+  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.description-temperature {
+  background-color: khaki;
+  margin: 5px 10%;
+  border: 5px solid darkred;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.nitrous {
+  background-color: darkslategray;
+  min-height: 120vh;
+}
+
+.nitrous-chart {
+  min-height: 300px;
+  background-color: lightskyblue;
+  margin: 10px 10%;
+  border: 2px solid orange;
+  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.description-nitrous {
+  background-color: lightskyblue;
+  margin: 5px 10%;
+  border: 5px solid orange;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.arctic {
+  background-color: darkslategray;
+  min-height: 120vh;
+}
+
+.arctic-chart {
+  min-height: 300px;
+  background-color: lightcyan;
+  margin: 5px 10%;
+  border: 2px solid purple;
+  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.description-arctic {
+  background-color: lightcyan;
+  color: purple;
+  margin: 5px 10%;
+  border: 5px solid purple;
+  border-radius: 10px;
+  padding: 15px;
+}

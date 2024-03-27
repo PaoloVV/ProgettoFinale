@@ -26,4 +26,5 @@ The tecnologies I used to create this app are:
 If you want to clone and work on this project, remember to download the dependencies with the Node npm install command.
 ```node
   npm install
+  npm run dev
 ```
