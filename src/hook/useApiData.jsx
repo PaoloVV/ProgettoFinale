@@ -16,13 +16,13 @@ function useApiData(apiUrl) {
     const fetchData = async () => {
       try {
         const response = await axios.get(apiUrl);
-        console.log(
-          response.data.co2 ||
-            response.data.methane ||
-            response.data.nitrous ||
-            response.data.result ||
-            response.data.arcticData.data
-        );
+        // console.log(
+        //   response.data.co2 ||
+        //     response.data.methane ||
+        //     response.data.nitrous ||
+        //     response.data.result ||
+        //     response.data.arcticData.data
+        // );
         setApiData(
           response.data.co2 ||
             response.data.methane ||
